@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+#container {
+    padding: 60px;
+}
+
+#cabecalho {
+    height: 180px;
+    text-align: center;
+}
+
+#menu {
+    background-color: rgb(60, 132, 250);
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu a {
+    color: white;
+    font-size: 25px;
+    margin: 0 45px 0 45px;
+    padding: 7px 15px;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+#menu a:hover {
+    border: 2px solid white;
+    border-radius: 10px
+}
+
+#carroussel {
+      
+}
+
+#conteudo {
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    grid-gap: 15px;
+}
+
+#c1 {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(79, 79, 79);
+    color: white; 
+}
+
+#c2 {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(34, 139, 34);
+    color: white;
+}
+
+#c3 {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.img_conteudo {
+    width: 100%;
+    height: 320px;
+    border-radius: 15px;
+}
+
+.h2_conteudo {
+    text-align: center;
+    font-family: tahoma;
+}
+
+.p_conteudo {
+    text-align: justify;
+    font-family: Arial;
+}
+
+#galeria {
+    background-color: rgb(60, 132, 250);
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-gap: 17px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img_galeria {
+    width: 100%;
+    height: 220px;
+}
+
+.img_galeria:hover {
+    -webkit-box-shadow: 7px 11px 10px -1px rgba(0,0,0,0.84);
+    -moz-box-shadow: 7px 11px 10px -1px rgba(0,0,0,0.84);
+    box-shadow: 7px 11px 10px -1px rgba(0,0,0,0.84);
+    transition: 0.2s;
+}
+
+#jumbotron {
+    padding: 100px 300px;
+    text-align: center;
+}
+
+#jumbotron p {
+    font-family: Calibri;
+    font-size: 20px;
+    color: #666;
+}
+
+.button_jumbo {
+    padding: 10px 70px;
+    background-color: #DEB887;
+    color: white;
+    font-family: Calibri;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.button_jumbo:hover {
+    background-color: #4F4F4F;
+    transition: 0.3s;
+}
+
+#rodape {
+    background-color: #1C1C1C;
+    color: white;
+    font-size: 20px;
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 7%;
+}
+
+#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+#rodape a:hover {
+    text-decoration: underline;
+}
